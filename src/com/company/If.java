@@ -10,7 +10,7 @@ public class If {
         for(int i=0;i<n;i++){
             int c = 'A';
             for(int j=0;j<=i;j++){
-                System.out.print((char)(c+j)+" ");
+                System.out.print((char)(c+i)+" ");
             }
             System.out.println();
         }
